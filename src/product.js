@@ -32,7 +32,7 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart}
                 detail.map((curElm) => 
                 {
                     return(
-                        <div className='productbox'>
+                        <div className='productbox' >
                             <div className='img-box'>
                                 <img src={curElm.Img} alt={curElm.Title}></img>
                             </div>
@@ -53,7 +53,7 @@ const Product = ({product, setProduct, detail, view, close, setClose, addtocart}
     }
     <div className='products'>
         <h2># Products</h2>
-        <p>Home . products</p>
+        <p>Home -- products</p>
         <div className='container'>
             <div className='filter'>
                 <div className='categories'>
